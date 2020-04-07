@@ -7,3 +7,5 @@ var element = document.getElementById("visualizationColumn");
 element.classList.remove("wireframeShare");
 var butGone = document.getElementById("gameButtons");
 butGone.parentNode.remove("gameButtons");
+var bor = document.getElementById("visualization");
+bor.classList.remove("with_padding");
